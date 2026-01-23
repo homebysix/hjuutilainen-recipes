@@ -8,7 +8,7 @@
 Input options:
 
 - ARCHITECTURE: Either arm64 (default) for Apple Silicon, or x64 for Intel. Supported in v2.93 through current release, but x64 is not supported in major version 5 or later (see below).
-- MAJOR_VERSION: A major version number. Default should be the latest major version. For x64 downloads, use major version 4. This recipe supports major versions 2 through current release.</string>
+- MAJOR_VERSION: A major version number (default should be the latest major version). This recipe supports major versions 2 through current release, but x64 downloads must use major version 4 or older.</string>
 	<key>Identifier</key>
 	<string>io.github.hjuutilainen.download.Blender</string>
 	<key>Input</key>
